@@ -1,0 +1,11 @@
+server:
+  port: 80
+spring:
+  mvc:
+    static-path-pattern: /static/**
+
+  freemarker:
+    template-loader-path: classpath:/templates/ftl/
+    suffix: .ftl
+    settings:
+      auto_import: /common/ftl.ftl as ftl, /common/spring.ftl as spring
