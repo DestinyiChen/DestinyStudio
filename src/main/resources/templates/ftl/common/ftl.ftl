@@ -57,7 +57,7 @@
     <div class="row">
         <div class="tal col-xs-4 col-sm-4">
             <img class="ds_icon" src="/static/img/destinystudio/destinystudio.png">
-            <span class="ds_span nowrap">Destiny Studio</span>
+            <#--<span class="ds_span nowrap">Destiny Studio</span>-->
         </div>
         <div class="tar col-xs-8 col-sm-8 padding_15px font_family_wryh">
             &nbsp;
