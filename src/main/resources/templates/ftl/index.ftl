@@ -1,7 +1,7 @@
 <@ftl.head>
-<title>Destiny Studio</title>
-<meta name="keywords" content="Destiny Studio"/>
-<meta name="description" content="Destiny Studio"/>
+<title>命运转轮编程乐园</title>
+<meta name="keywords" content="命运转轮编程乐园"/>
+<meta name="description" content="命运转轮编程乐园"/>
 
 <meta name="baidu-site-verification" content="PEQ4jgd5Bk"/>
 <meta name="sogou_site_verification" content="Oo678Pkb4h"/>
@@ -18,7 +18,6 @@
 <#--</div>-->
 <#--</div>-->
     <div class="all_center color_whitesmoke"><h1>网站建设中，敬请期待...</h1></div>
-    <@ftl.friendLinks/>
     <@ftl.index_bottom/>
 <script>
 </script>

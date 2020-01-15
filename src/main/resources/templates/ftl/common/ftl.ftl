@@ -18,7 +18,7 @@
 
     <link href="/static/css/destinystudio.css" rel="stylesheet"/>
 
-    <#if dev?? && !dev>
+    <#if prod?? && prod>
         <script src="http://push.zhanzhang.baidu.com/push.js"></script>
         <script>
             (function (e) {
@@ -57,7 +57,7 @@
     <div class="row">
         <div class="tal col-xs-4 col-sm-4">
             <img class="ds_icon" src="/static/img/destinystudio/destinystudio.png">
-            <#--<span class="ds_span nowrap">Destiny Studio</span>-->
+        <span class="ds_span nowrap">命运转轮编程乐园</span>
         </div>
         <div class="tar col-xs-8 col-sm-8 padding_15px font_family_wryh">
             &nbsp;
@@ -114,26 +114,15 @@
 </div>
 </#macro>
 
-<#macro friendLinks>
-    <#if flList?? && (flList?size > 0)>
-    <div class="div_fl">
-        <span class="span_fl">友情链接：</span>
-        <#list flList as item>
-            <span class="span_fl"><a class="a_light nowrap" href="${item.link}">${item.linkName}</a></span>
-        </#list>
-    </div>
-    </#if>
-</#macro>
-
 <#macro index_bottom>
 <div class="div_miitbeian">
     <span class="span_miitbeian">ICP主体备案号：<a href="http://www.miitbeian.gov.cn/">津ICP备18004720号</a></span>
     <span class="span_miitbeian">网站备案号：<a href="http://www.miitbeian.gov.cn/">津ICP备18004720号-1</a></span>
 </div>
 <#--<div class="div_verify">-->
-    <#--<a href="http://webscan.360.cn/index/checkwebsite/url/destinystudio.cn">-->
-        <#--<img border="0" src="http://webscan.360.cn/status/pai/hash/7faafc6d113365c4c924713a1fc4329a"/>-->
-    <#--</a>-->
+<#--<a href="http://webscan.360.cn/index/checkwebsite/url/destinystudio.cn">-->
+<#--<img border="0" src="http://webscan.360.cn/status/pai/hash/7faafc6d113365c4c924713a1fc4329a"/>-->
+<#--</a>-->
 <#--</div>-->
 <div style="background-color: white; padding-left: 17px; padding-right: 17px;">
     <script>cambrian.render('body')</script>
